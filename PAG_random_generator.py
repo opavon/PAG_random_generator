@@ -8,7 +8,7 @@ file = open("Patch_Order_" + str(date) + ".txt", "w")
 file.write("This is the order to follow for patching today " + str(date) + ":\n")
 file.close()
 
-# Generate a list containing the PAG areas.
+# Generate a list containing the PAG areas
 PAG_areas = [". Patch dmPAG (right)", ". Patch dlPAG (right)", ". Patch lPAG (right)", ". Patch vlPAG (right)", ". Patch dmPAG (left)", ". Patch dlPAG (left)", ". Patch lPAG (left)", ". Patch vlPAG (left)"]
 
 # Randomly shuffle the areas

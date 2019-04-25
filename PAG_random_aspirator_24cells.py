@@ -8,7 +8,7 @@ file = open("Aspiration_Order_" + str(date) + ".txt", "w")
 file.write("This is the order to follow for aspiration today " + str(date) + ":\n")
 file.close()
 
-# Generate a list containing the PAG areas.
+# Generate a list containing the PAG areas
 PAG_areas = [". Aspirate dmPAG (right)", ". Aspirate dlPAG (right)", ". Aspirate lPAG (right)", ". Aspirate vlPAG (right)", ". Aspirate dmPAG (left)", ". Aspirate dlPAG (left)", ". Aspirate lPAG (left)", ". Aspirate vlPAG (left)", ". Aspirate dmPAG (right)", ". Aspirate dlPAG (right)", ". Aspirate lPAG (right)", ". Aspirate vlPAG (right)", ". Aspirate dmPAG (left)", ". Aspirate dlPAG (left)", ". Aspirate lPAG (left)", ". Aspirate vlPAG (left)", ". Aspirate dmPAG (right)", ". Aspirate dlPAG (right)", ". Aspirate lPAG (right)", ". Aspirate vlPAG (right)", ". Aspirate dmPAG (left)", ". Aspirate dlPAG (left)", ". Aspirate lPAG (left)", ". Aspirate vlPAG (left)"]
 
 # Randomly shuffle the areas
